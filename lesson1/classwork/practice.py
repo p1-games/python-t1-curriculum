@@ -1,11 +1,11 @@
 # Problem 1
 # Create a variable for your favorite number and print it.
-
-
+d = 7
+print(d)
 
 # Problem 2
 # Create a variable for your height in meters and print it.
-
+h = 30
 
 
 # Problem 3
