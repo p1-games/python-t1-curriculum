@@ -11,8 +11,8 @@ print(height)
 
 # Problem 3
 # Create a variable for your favorite animal and print it in a full sentence.
-My favorite animal tis = "monkey"
-print("My favorite animal tis",My favorite animal tis)
+My_favorite_animal = "monkey"
+print("My favorite animal is",My_favorite_animal)
 
 # Problem 4
 # Create two variables: one for your first name and one for your last name.
@@ -24,7 +24,9 @@ print(last)
 # Problem 5
 # Create 3 variables: your first name, your age, and your favorite color.
 # Print them on the same line in a full sentence.
-first2 = "Patrick tis"
+first2 = "Patrick is"
 age = "11"
-color = " and likes green"
+color = "and likes green"
+just_color = "green"
 print(first2,age,color)
+print("My name is " + first + ", I'm " + age + " years old and I like the color " + just_color)
