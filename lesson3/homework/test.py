@@ -1,12 +1,10 @@
 # Problem 5
 # Ask the user for two numbers.
-# Print which number is larger.
-# If the numbers are equal, print "Numbers are equal".
-banana = int(input("pick number because yes and do it right now: "))
-apple = int(input("pick number because yes and do it right now: "))
-if banana == apple:
-    print("Numbers are equal")
-elif banana > apple: 
-    print(banana)
+# If one is divisible by 5 AND the other is NOT divisible by 2, print "Interesting pair!"
+# Otherwise, print "Plain pair."
+num = int(input("give number: "))
+num2 = int(input("again, give number: "))
+if (num % 5 == 0 and num2 % 2 != 0) or (num2 % 5 == 0 and num % 2 != 0):
+    print("Interesting pair!")
 else:
-    print(apple)
+    print("Plain pair")
